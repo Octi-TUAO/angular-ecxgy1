@@ -1,0 +1,8 @@
+/* Add application styles & imports to this file! */
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+  background-image: linear-gradient(to right, cyan, black);
+}
