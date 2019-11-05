@@ -9,4 +9,10 @@ import {Contatto} from './contatto.model';
 
 export class ContattoComponent{
   contatto: Contatto = new Contatto('Octavian', 'Fusari', 'fusarioctavian@gmail.com', '3273133722', 5);
+
+  setTC(){
+    return this.contatto.isPreferito()? "red":"black";
+    /*? sarebbe l'if ristretto con rad e black booleani*/
+    
+  }
 }

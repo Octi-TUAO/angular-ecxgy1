@@ -20,4 +20,11 @@ export class Contatto{
     return this.mail;
   }
 
+  isPreferito():boolean{
+    return this.nrStelle == 5;
+  }
+  setPreferito(){
+    this.nrStelle = 5;
+  }
+
 }
